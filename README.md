@@ -10,5 +10,11 @@ Step 2: Run virtual env
 inside folder of virtualenv 
 run source tutorial-env/bin/activate
 
-Step 3:
-git 
+Step 3:Clone Repo insdie venv
+git clone https://github.com/thepauldv/doctorappflask.git 
+
+step4: go inside repo
+cd doctorappserve
+
+step 6: run project
+python run.py
