@@ -15,6 +15,7 @@ git clone https://github.com/thepauldv/doctorappflask.git
 
 step4: go inside repo
 cd doctorappserve
+and run pip install -r requirements.txt
 
 step 6: run project
 python run.py
