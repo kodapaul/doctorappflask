@@ -18,7 +18,6 @@ def main():
         data = json.load(appointment)
         
         data['appointments'].sort(key = lambda x:x['date'])
-        data['appointments'].sort(key = lambda x:x['time_in']) 
         
     
     return json.dumps(data), 200
